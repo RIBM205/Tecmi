@@ -42,7 +42,7 @@ void DoCalculos(){
 	total = depreciacion1 + depreciacion2 + depreciacion;
 	actual = precio - total;
 	printf("la marca de su auto es: %s \n",marca);
-	printf("el modelo de su auto es: %d \n",antiguedad);
+	printf("el modelo de su auto es %d \n",antiguedad);
 	printf("el precio de su auto es %d \n",precio);
 	printf("la depreciacion al salir de la agencia fue:: %f  \n",depreciacion);
 	printf("su auto se devaluo el primero: %f  \n",depreciacion1);
@@ -72,4 +72,3 @@ else{
 	
 	}
 }
-a
